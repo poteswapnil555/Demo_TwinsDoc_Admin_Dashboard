@@ -1,12 +1,40 @@
-# React + Vite
+# Demo_TwinsDoc_Admin_Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Admin Dashboard for **Demo_TwinsDoc** – a healthcare management platform.
 
-Currently, two official plugins are available:
+## 🖥️ Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This React-based admin panel provides healthcare system administrators with tools to manage users, appointments, and system-wide operations. Built with Context API, Axios, and plain CSS for a smooth and maintainable experience.
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Admin login and secure session handling
+- View and manage patients & doctors
+- Monitor appointments and statuses
+- System analytics (placeholder or real-time)
+- Context API for global state
+- Axios for backend API integration
+
+## 📸 Demo
+
+![Admin Dashboard Preview](./assets/admin_dashboard_preview.png)
+
+> *Preview of the admin control panel UI.*
+
+## 🛠️ Tech Stack
+
+- **React**
+- **Context API**
+- **Axios**
+- **CSS**
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/yourusername/Demo_TwinsDoc_Admin_Dashboard.git
+cd Demo_TwinsDoc_Admin_Dashboard
+npm install
+npm start
+
+🔗 Backend
+Connects with the backend: Demo_TwinsDoc_Backend
