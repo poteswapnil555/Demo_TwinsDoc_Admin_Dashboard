@@ -27,8 +27,3 @@ cd Demo_TwinsDoc_Admin_Dashboard
 npm install
 npm run dev
 ```
-
-### 📸 Screenshots
-(Add screenshots here)
-
----
